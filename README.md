@@ -1,4 +1,4 @@
 algorithmscourse
 ================
 
-Algorithms course
+Algorithms course :)
