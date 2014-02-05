@@ -6,10 +6,10 @@ public abstract class UnionFind {
     
     public void init(int arraysize) {
          id = new int[arraysize];
-        
-        for (int i = 0; i < arraysize; i++) {
+         
+         for (int i = 0; i < arraysize; i++) {
             id[i] = i;
-        }
+         }
     }
     
     public abstract boolean isconnected(int a, int b);
