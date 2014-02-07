@@ -16,7 +16,17 @@ public class QuickFindUnitTest extends TestCase {
     public static Test suite() {
         return new TestSuite( QuickFindUnitTest.class );
     }
-
+    
+    @Override
+    protected void setUp() throws Exception {
+        super.setUp(); 
+    }
+    
+    @Override
+    protected void tearDown() throws Exception {
+       super.tearDown();
+    }
+    
     public void test() {
         
         System.out.println("testing quick find algorithm...\n");
