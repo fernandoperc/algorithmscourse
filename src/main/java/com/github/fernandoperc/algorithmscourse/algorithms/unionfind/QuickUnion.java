@@ -13,7 +13,7 @@ public class QuickUnion extends UnionFind {
         id[roota] = rootb; 
     }
     
-    private int root(int i) {
+    protected int root(int i) {
         while (i != id[i]) {
             i = id[i];
         }

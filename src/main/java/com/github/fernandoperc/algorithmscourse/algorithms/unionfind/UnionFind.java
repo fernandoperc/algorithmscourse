@@ -11,7 +11,21 @@ public abstract class UnionFind {
             id[i] = i;
          }
     }
-    
+
+    public String tostring() {
+      String returnval = "";
+
+        for (int i = 0; i < id.length; i++) {
+            returnval += "index: "
+                        + i
+                        + " entry: "
+                        + id[i]
+                        + "\n";
+                        
+        }
+        return returnval;
+    }
+     
     public abstract boolean isconnected(int a, int b);
     public abstract void union(int a, int b);
     
